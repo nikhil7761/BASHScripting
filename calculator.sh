@@ -20,9 +20,23 @@ case $choise in
 
 1)
    result=$((N1M+N2M))
-   echo "Result fo the additon $result"
+   echo "Result of the additon $result"
 ;;
-
+2) 
+   result=$((N1M*N2M))
+   echo "Result of the multiplication $result"   
+;;
+3) 
+   result=$((N1M-N2M))
+   echo "Result of the multiplication $result"   
+;;
+4) 
+   result=$((N1M%N2M))
+   echo "Result of the multiplication $result"   
+;;
+*) 
+   echo "invalid option are selected please select as per apporiciate option"   
+;;
 esac
 
 
