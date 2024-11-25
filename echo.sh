@@ -1,3 +1,4 @@
+#!bin/bash
 age=24
 if [ $age -ge 27 ]; then
       echo "you are eligible"
