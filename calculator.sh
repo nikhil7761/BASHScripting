@@ -20,7 +20,7 @@ case $choise in
 
 1)
    result=$((N1M+N2M))
-   echo "Result of the additon $result"
+   echo "Result of the additon $result"  >> result.txt
 ;;
 2) 
    result=$((N1M*N2M))
