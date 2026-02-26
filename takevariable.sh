@@ -1,0 +1,1 @@
+echo "enter num1" read -p $num1
